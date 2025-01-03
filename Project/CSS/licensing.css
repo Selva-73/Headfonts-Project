@@ -1,0 +1,306 @@
+/* RESET CSS CODE */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* RESET CSS TOOLS */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+span {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    height: 80px;
+    min-height: 90px;
+    max-width: 100%;
+    background-color: white;
+
+}
+
+#header-container {
+    height: 100px;
+    margin: 0 100px;
+    padding: 10px 50px;
+    background-color: #fff;
+    /* border: 3px solid darkblue; */
+}
+
+#header-div2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.navbar {
+    padding: 30px 150px;
+}
+
+.header-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.items {
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.logo-image {
+    width: 60px;
+    height: 60px;
+}
+
+.shop-icon {
+    color: grey;
+    padding: 7px 5px;
+}
+
+a {
+    color: grey;
+}
+
+a:hover {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.licensing{
+    color: #666666;
+    font-weight: bolder;
+}
+
+.licensing:hover {
+    color: lightgrey
+}
+
+.image-container1 {
+    background-image: url('https://media.sellfy.com/images/807haLD5/9lqL/License.png');
+    background-position: bottom center;
+    background-size: cover;
+    max-width: 100%;
+    min-height: 480px;
+    margin-bottom: 80px;
+}
+#para{
+    margin: 32px;
+    margin-left: 28px;
+    margin-right: 0px;
+    padding-left:70px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    font-size: 14px;
+    font-weight: 500px;
+    /* text-align: left; */
+}
+.container{
+    margin: 0px 20px;
+}
+.heading{
+    font-weight: 900;
+    font-size: 30px;
+}
+.special{
+    color: #808080;
+    font-weight: bold;
+}
+.normal{
+    color: #808080;
+}
+.Cannot{
+    color: #bdc3c7;
+}
+.types{
+    border-bottom: 1px solid #bdc3c7;
+}
+.types:last-child{
+    border-bottom: none;
+}
+ul {
+    list-style-type: disc;
+    padding-left: 15px;
+  }
+/* #949ca7 */
+#footer-section-1 {
+    width: 100%;
+    margin: 20px;
+    /* border: 5px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-icon {
+    width: 14px;
+    height: 14px;
+    margin: 0 10px;
+}
+
+.footer-item {
+    padding: 0px 10px;
+}
+
+.footer-bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+hr {
+    color: lightgrey;
+}
+
+.footer-bottom-1 {
+    margin: 10px 0;
+}
+
+.footer-bottom-2 {
+    margin: 10px 0;
+}
+
+.sellfy {
+    width: 58px;
+    height: 20px;
+}
+
+.footer-lasttext {
+    color: lightgrey;
+}
