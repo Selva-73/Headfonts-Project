@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headfonts-login</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Nunito+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/x-icon"
+        href="https://d12swbtw719y4s.cloudfront.net/images/807haLD5/v8y8YAVrr0G5Sw3fp1ha/aP2QO6UaYK.jpeg">
+    <link rel="Stylesheet" href="./CSS/login.css">
+    <script src="./JS/login.js" defer></script>
+</head>
+
+<body>
+    <div class="total">
+        <div class="form-wrapper">
+            <form action="#">
+                <h2>login</h2>
+                <div class="input-group">
+                    <input type="text" class="input" id="username">
+                    <label for="username" class="label">Username</label>
+                </div>
+                <span class="error1">Please enter a valid username</span>
+                <div class="input-group" id="Password-container">
+                    <input type="password" class="input" id="password">
+                    <label for="password" class="label">Password</label>
+                    <!-- <input type="password" id="password" name="password" placeholder="Enter your password" class="eyeicon"> -->
+                    <span class="toggle-password">
+                        <img src="./Assets/Images/eye-closed.png" width="15px" height="15px" id="eye1">
+                    </span>
+                </div>
+                <span class="error2">Please enter correct password</span>
+                <div class="error"></div>
+                <div class="remember">
+                    <input type="checkbox" id="remember">
+                    <label for="remember">Remember me</label>
+                </div>
+                <button type="submit" id="btn">login</button>
+                <div class="signUp-link">
+                    <p>Don't have an account?<a href="./registerbutton.html" class="signUpBtn-link">Sign Up</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
